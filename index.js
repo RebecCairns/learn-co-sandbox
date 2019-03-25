@@ -6,3 +6,9 @@ function aboutPerson(name1, yearBorn2){
 }
 var howOld = aboutPerson(name, yearBorn);
 console.log(howOld + " is still young")
+
+function log(s) {
+  s = 'Mr. X';
+  console.log(s);
+}
+log('Hello!');
